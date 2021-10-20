@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NTUFood" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ntu_pink</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">@color/ntu_pink</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/ntu_blue</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="textInputStyle">@style/AppTheme.TextInputLayout.OutlinedBox</item>
+        <item name="android:listDivider">@drawable/vertical_divider_dark</item>
+    </style>
+
+    <style name="AppTheme.TextInputLayout.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="colorOnSurface">@color/white</item>
+        <item name="boxStrokeColor">@color/ntu_pink</item>
+        <item name="android:background">@drawable/text_input_background</item>
+        <!-- The color of the label when it is collapsed and the text field is active -->
+        <item name="hintTextColor">@color/white</item>
+        <!-- The color of the label in all other text field states (such as resting and disabled) -->
+        <item name="android:textColorHint">@color/white</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <!-- error colours -->
+        <item name="boxStrokeErrorColor">@color/error</item>
+        <item name="errorTextColor">@color/error_text</item>
+        <item name="errorIconTint">@color/white</item>
+    </style>
+
+</resources>

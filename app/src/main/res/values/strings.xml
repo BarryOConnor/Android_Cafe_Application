@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">NTU Food</string>
+    <string name="app_logo">Nottingham Trent University logo</string>
+
+    <!-- Login / Register strings -->
+    <string name="email">Email</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">Password</string>
+    <string name="password">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="forename_hint">Forename</string>
+    <string name="forename">Enter your Forename</string>
+    <string name="surname_hint">Surname</string>
+    <string name="surname">Enter your Surname</string>
+
+    <!-- error messages -->
+    <string name="email_error">Enter a valid email address</string>
+    <string name="password_error">Password must be 8 or more characters and contain contain uppercase, lowercase and one of @#$%^&amp;+=!</string>
+
+    <!-- Customer home -->
+    <string name="browse_menu">Browse Menu</string>
+    <string name="place_order">Place Order</string>
+    <string name="your_order">Your Orders</string>
+
+    <!-- Select an Outlet -->
+    <string name="search">Search</string>
+    <string name="fa_icon_home">&#xf015;</string>
+
+    <string name="unavailable">This special is not available today</string>
+    <string name="order_no_items">You have no items in your order. Place items in your order before continuing</string>
+
+    <!--QR Code / Camera -->
+    <string name="QR_not_valid">The QR Code you scanned is not an NTU Food code, please press the button to attempt to scan the QR code on your table again.</string>
+    <string name="QR_Message">Please press the button when ready and scan the QR Code on your chosen table to proceed.</string>
+    <string name="QR_Integrator">Please scan the QR Code on your table to proceed.</string>
+    <string name="QR_Scan">Scan the QR Code</string>
+    <string name="Camera_denied">Camera Permission Denied</string>
+    <string name="Camera_cancelled">This action was cancelled</string>
+
+</resources>

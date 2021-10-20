@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "895035024787",
+    "firebase_url": "https://ntufood-d43b1-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ntufood-d43b1",
+    "storage_bucket": "ntufood-d43b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895035024787:android:08e5706b8b64c09915b466",
+        "android_client_info": {
+          "package_name": "com.barry.ntufood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895035024787-3hf2813u6mla6n0npd1d4g6105d15cvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASc34fhodnWgFbfoimg_UjNpd2CTy09-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895035024787-3hf2813u6mla6n0npd1d4g6105d15cvt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

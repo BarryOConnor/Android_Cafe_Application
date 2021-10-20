@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NTUFood">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <Button
+            android:id="@+id/btnBrowseMenu"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_book_open"
+            android:paddingTop="20dp"
+            android:text="@string/browse_menu"
+            app:backgroundTint="@color/ntu_pink"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btnPlaceOrder"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_food_dish"
+            android:paddingTop="20dp"
+            android:text="@string/place_order"
+            app:backgroundTint="@color/ntu_pink"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnBrowseMenu" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
